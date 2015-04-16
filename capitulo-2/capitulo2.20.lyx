@@ -1331,7 +1331,9 @@ n es muy aproximarlo a la un toroide y al de una espira, lo cuál nos ayudará
 \end_layout
 
 \begin_layout Standard
-Los moldes de acero inoxidabe que se usan se muestran el la tabla 
+Los moldes de acero inoxidable, se pulieron a espejo con un abrasivo para
+ metales y paño de algodon, esto para que la muestra no se adiera a las
+ superficies, los moldes usados se muestran el la tabla 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:materiales-usados-para"
@@ -1599,10 +1601,47 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-3/material-1.jpg
+	lyxscale 5
+	scale 4
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-3/moldes-1.jpg
+	lyxscale 5
+	scale 4
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-3/molde-2.jpg
+	lyxscale 5
+	scale 3
+	rotateAngle 90
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-3/moldes-3.jpg
+	lyxscale 5
+	scale 4
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
-contenedores de acero inoxidable, muestra en molde
+Implementos para conformar la muestra, muestra dentro del molde
 \end_layout
 
 \end_inset
