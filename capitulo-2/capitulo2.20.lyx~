@@ -1,0 +1,1656 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage[spanish]{babel}
+ 
+\addto\captionsspanish{
+\def\tablename{Tabla}
+\def\listtablename{\'Indice de tablas}
+}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Experimentación
+\end_layout
+
+\begin_layout Standard
+Para determinar la corriente inducida en un arillo superconductor de 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+, se sintetizó el compuesto mediante un proceso de estado sólido; Posteriormente
+ se diseña y construyó un dispositivo experimental, el cual consta de una
+ parte mecánica (posicionadores), un sistema de medición de campo magnético
+ con sensores Hall los cuales se calibran (electrónica) y un sistema para
+ recolectar datos (digital) por medio de una computadora personal.
+ El dispositivo se usará para mapear el campo magnético generado por la
+ supercorriente atrapada en el arillo superconductor; usando la ley de Biot-Sava
+rt se determinará en valor de la corriente en el eje axial.
+\end_layout
+
+\begin_layout Section
+Síntesis de 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Estequiometría.
+\end_layout
+
+\begin_layout Standard
+Para sintetizar el compuesto superconductor 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+, se hace una reacción de estado solido, donde se usan los siguientes compuestos
+: 
+\end_layout
+
+\begin_layout Enumerate
+Óxido de Itrio (III) (
+\begin_inset Formula $Y_{2}O_{3}$
+\end_inset
+
+) al 99.99% de pureza.
+\end_layout
+
+\begin_layout Enumerate
+Carbonato de Bario ( 
+\begin_inset Formula $BaCO_{3}$
+\end_inset
+
+) al 99.2% de pureza.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Óxido Cúprico (
+\begin_inset Formula $CuO$
+\end_inset
+
+) al 99.0% de pureza.
+\end_layout
+
+\begin_layout Standard
+combinamos los tres compuestos estequiometricamente, realizamos un balance
+ de ecuaciones y obtenemos las cantidades adecuadas de cada compuesto para
+ al hacerlos reaccionar y formar el superconductor.
+\end_layout
+
+\begin_layout Standard
+Para hacer equivalentes las ecuaciones, se propone:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\frac{1}{2}(Y_{2}O_{3})+2(BaCO_{3})+3(CuO)=Y_{1}Ba_{2}Cu_{3}O_{7-\delta}+2CO_{2}$
+\end_inset
+
+ con 
+\begin_inset Formula $\delta=0.5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La tabla 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:peso-de-los"
+
+\end_inset
+
+ enlista las proporciones molares necesarias para la síntesis de 1 mol del
+ compuesto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+elemento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+compuesto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+peso
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gramos-mol
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Y{}_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Y_{2}O_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{2}\left[2(88.905)+3(16)\right]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $112.905$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Ba{}_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $BaCO_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2\left[(137.327)+(12.011)+3(16)\right]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $394.676$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Cu{}_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $CuO$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3[(63.541)+(16)]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $238.623$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Suma de los gramos mol del compuesto
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $746.204$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+peso de los compuestos
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:peso-de-los"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para elaborar una muestra de 12 gramos, se necesitan:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $Y_{2}O_{3}=\frac{112.905}{746.204}(12\, g)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $BaCO_{3}=\frac{394.676}{746.204}(12\, g)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $CuO=\frac{238.623}{746.204}(12\, g)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Y_{2}O_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.8156 g
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $BaCO_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.3469 g
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $CuO$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.8373 g
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+valores teóricos para preparar 12 gramos de muestra
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:valores-teóricos-para"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Síntesis.
+\end_layout
+
+\begin_layout Standard
+Después de hacer el calculo estequiométrico y definir la cantidad de muestra
+ a elaborar, procedemos a la síntesis del material; para esto debemos pesar
+ con mucha precisión y como los compuestos, son hidrofílicos, su masa esta
+ aumentada por la humedad absorbida del medio ambiente.
+ Entonces tendremos que desecarlos en una mufla a 
+\begin_inset Formula $150^{\circ}C$
+\end_inset
+
+ durante dos horas; Para este paso colocamos cada compuesto en un crisol
+ de porcelana y los horneamos con el objetivo de deshidratarlos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/pegado3.png
+	lyxscale 10
+	scale 60
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/pegado2.png
+	lyxscale 10
+	scale 60
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/pegado1.png
+	lyxscale 10
+	scale 33.399999999999999
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+desecado de los compuestos antes de pesar
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:desecado-de-los"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ya desecado cada compuesto, se pesa cada uno en una balanza analítica, los
+ pesos obtenidos se presentan en la tabla 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:peso-experimental-de"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Y_{2}O_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.816\, g\,\pm\,5\times10^{-3}g$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $BaCO_{3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6.347\, g\,\pm\,5\times10^{-3}g$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $CuO$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.837\, g\,\pm\,$
+\end_inset
+
+
+\begin_inset Formula $5\times10^{-3}g$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+peso experimental de los compuestos
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:peso-experimental-de"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Estos compuestos se mezclan y se muelen homogéneamente en un mortero de
+ ágata hasta formar un polvo muy fino de color gris claro; la mezcla se
+ vierte en crisol de alúmina, para posteriormente hornearla durante 2 horas
+ a una temperatura de 750°C en una mufla; esta primera calcinación es para
+ volatilizar los carbonatos de la mezcla.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/muestra1-1.jpg
+	lyxscale 10
+	scale 5.2999999999999998
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/muestra1-2.jpg
+	lyxscale 10
+	scale 5
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+Molienda y mezcla en mortero de ágata, polvo fino y tamizado
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Molienda-y-mezcla"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Transcurrido el tiempo de la primera calcinación, se retira la muestra del
+ horno, se observa que la coloración de la mezcla ha cambiado volviendose
+ mas oscura.
+ Usando el mortero de ágata se vuelve a moler y mezclar hasta llegar a la
+ textura de un talco muy fino, que se vuelve a introducir al horno a una
+ temperatura de 800°C por un lapso de 5 horas; transcurrido el tiempo se
+ retira la muestra, se repite el molido y mezclado, para luego calcinarla
+ por ultima vez a 850°C durante 6 horas.
+ Su color ahora es gris muy oscuro, tendiendo a negro, con una textura mas
+ dura que las anteriores calcinaciones y molidos, de tal manera que al colocarlo
+ para moler en el mortero, hay que darle golpecillos muy ligeros a la muestra
+ para fracturarla e ir reduciendo la muestra a un tamaño de molido de un
+ talco muy fino.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/muestra2-1.jpg
+	lyxscale 10
+	scale 5
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/muestra-2-2.jpg
+	lyxscale 10
+	scale 5
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/muestra-2-3.jpg
+	lyxscale 10
+	scale 4
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/muestra-2-4.jpg
+	lyxscale 10
+	scale 4
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+distinta coloración en diversas calcinaciones
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:distinta-coloración-en"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como último paso para poder formar el compuesto superconductor, hay que
+ hacer un horneado a 920 °C durante un periodo de 12 horas, sabemos que
+ a apartir de los 900 °C se forma la estructura del 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+, basandonos en la estequiometría tendremos deficiencias de oxígeno, por
+ lo que al hornear por ultima vez, introduciremos una atmosfera controlada
+ rica en oxigeno (con flujo constante de oxigeno), para incrementar este
+ elemento en la estructura y lograr un superconductor con un 
+\begin_inset Formula $\delta$
+\end_inset
+
+ mayor, con la muestra ya molida, la colocamos en una navecilla de alúmina,
+ la cuál hornearemos en una atmosfera controlada, para este fin usaremos
+ un horno tubular GSL-1500X-40 el cual esta diseñado para trabajar con vacio,
+ flujo de gas y consta de un sistema de control de temperatura para el calentami
+ento como el enfriado
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-14"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+El horno se programa con al siguiente secuencia:
+\end_layout
+
+\begin_layout Itemize
+Comenzar un calentamiento gradual desde temperatura ambiente y llegar a
+ 920 °C en 4 horas (
+\begin_inset Formula $3.7\frac{\text{°C}}{min}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Al llegar a 900 °C, mantener la temperatura constante durante 12 horas (a
+ esta temperatura se forma la estructura del YBaCuO).
+\end_layout
+
+\begin_layout Itemize
+Despues de 12 horas a 900°C se desciende la temperatura en un lapso de 4
+ horas a 450°C y mantenemos el horneado a esta temperatura por 12 horas
+ ( oxigenación de la muestra).
+\end_layout
+
+\begin_layout Itemize
+Transcurrido el periodo de oxigenación, automaticamente se apaga el horno
+ y se espera que gradualmente descienda la temperatura hasta llegar a temperatur
+a ambiente.
+\end_layout
+
+\begin_layout Standard
+Si no contaramos con un horno de atmosfera controlada (una mufla), otra
+ opción para oxigenar el 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+ es; posterior al horneado de 12 horas a 450°C, retirar la muestra a esta
+ temperatura y enfriarla subitamente a 4°C para atrapar la mayor cantidad
+ de oxígeno dentro de la estructura.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/grafica-gsl1500.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+Horno GSL-1500X, secuencia de horneado.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Horno-GSL-1500X,-secuencia"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Al retirar la muestra del horno GSL-1500X, observamos que es mas oscura,
+ el material se ha tornado en su totalidad casi negro, tiene una consistencia
+ muy rigida y con pequeños brillos, este ultimo horneado hizo que la muestra
+ se endureciera, con caracteristicas propias de un ceramico.
+ para poder cerciorarnos que hemos logrado sinterizar el superconductor,
+ a la muestra se le aplicará la técnica de difracción de rayos X en polvos,
+ y constatar que se llegó a la fase de un supercondutor de la familia del
+ 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+.
+ Por última ocasión se vuelve a moler la muestra y hacerla polvo, con dos
+ objetivos el primero, usar la técnica de difracción de Rayos-X y el segundo,
+ poder conformar una estructura geométrica adecuada (arillo) para su posterior
+ experimentación.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/HORNO3.jpg
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/HORNO2.jpg
+	lyxscale 8
+	scale 3.7000000000000002
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/muestra3-1.jpg
+	lyxscale 5
+	scale 4
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+horno GSL-1500X-40; muestra de 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:horno-GSL-1500X-40;-muestra"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ Se separa una porcion pequeña de polvo y se vierte en un portamuestras
+ de vidrio, para analizarlo por difracción de Rayos-X, esta técnica sirve
+ para caracterizar estructuras cristalinas y no es destructiva, esta metodología
+ nos permite obtener un espectro muy caracteristico para cada cada material
+ (una firma única).
+ Para analizar nuestra muestra se hizo una corrida larga de 
+\begin_inset Formula $2\theta$
+\end_inset
+
+, la cual cotejamos con una base de datos para determinar si tenemos fase
+ de 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+ y así cerciorarnos de haber obtenido un superconductor, la gráfica 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Difracción-de-Rayos-X,"
+
+\end_inset
+
+ representa el espectro de nuestra síntesis, así como el ajuste por la base
+ de datos, de donde observamos que obtuvimos la fase de un superconductor
+ 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+, Al cotejar el espectro que obtuvimos se ajusta a una estructura superconductor
+a de 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{6.8},$
+\end_inset
+
+ con 
+\begin_inset Formula $\delta=0.2$
+\end_inset
+
+.
+ Del capítulo anterior, sabemos que este el material al ser enfriado y estar
+ por debajo de su 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+ entrará a estado de superconducción (
+\begin_inset Formula $R=0$
+\end_inset
+
+) y presentará efecto Meissner, por lo tanto en el siguiente apartado conformare
+mos nuestra pieza experimental y verificaremos al enfriarlo que este efecto
+ se manifieste, y así garantizar de dos maneras diferentes (difracción de
+ Rayos-X y Meissner) haber obtenido un superconductor de la familia del
+ 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/huaccra/Dropbox/TESIS-LIC/Escritura/TESIS/IMAGENES-TESIS/capitulo-2/seccion-2-1-2/ybcuo.jpg
+	lyxscale 30
+	scale 35
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+Difracción de Rayos-X, corrida larga
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Difracción-de-Rayos-X,"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+conformación de un anillo.
+\end_layout
+
+\begin_layout Standard
+Para hacer las mediciones de campo magnético, el polvo obtenido en la sección
+ anterior se sometera a un prensado dentro de moldes de acero inoxidable,
+ los cuales combinaremos para darle la forma de un arillo, es relevante
+ destacar que los moldes fueron diseñados para hacer discos; combinando
+ varios moldes se logró finalmente conformar un arillo de 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+, debido a los esfuerzos a los que fueron sometidos los moldes, la muestra
+ muchas veces se fracturo lateralemente, lo cual propició volver a moler
+ y conformar.
+ hay que señalar que la geometria de arillo que se eligió para la experimentació
+n es muy aproximarlo a la un toroide y al de una espira, lo cuál nos ayudará
+ a modelar con mayor facilidad.
+\end_layout
+
+\begin_layout Standard
+Los moldes de acero inoxidabe que se usan se muestran el la tabla 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:materiales-usados-para"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+diámetro interior
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+diámetro exterior
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+altura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+masa
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+materiales usados para conformar el aro superconductor de 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+,
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:materiales-usados-para"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+el molde de mayor dimensión (cilindro hueco) esta hecho de tal forma que
+ el disco tiene el diámetro de la medida de su hueco, introduciremos el
+ disco al interior de este cilindo de tal manera que quede como base plana
+ lista para contener el polvo de 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O_{7-\delta}$
+\end_inset
+
+ que se sometera a prensado; para poder obtener el orificio del arillo en
+ el prensado, se introduce el cilindro mas pequeño centrandolo, para luego
+ vertir el polvo en el espacio que se forma, como se muestra en la figura
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+contenedores de acero inoxidable, muestra en molde
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diseño del dispositivo
+\end_layout
+
+\begin_layout Subsection
+Bobinas de Helminto.
+\end_layout
+
+\begin_layout Subsection
+Posicionadores.
+\end_layout
+
+\begin_layout Subsection
+Porta muestra.
+\end_layout
+
+\begin_layout Section
+Sensores
+\end_layout
+
+\begin_layout Subsection
+Sensor de efecto Hall.
+\end_layout
+
+\begin_layout Subsection
+Sensor de temperatura criogénico.
+\end_layout
+
+\begin_layout Subsection
+Circuito de calibración.
+\end_layout
+
+\begin_layout Subsection
+Recolección y almacenamiento de datos.
+\end_layout
+
+\end_body
+\end_document

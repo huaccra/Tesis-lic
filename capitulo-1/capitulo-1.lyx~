@@ -1,0 +1,744 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Marco teórico
+\end_layout
+
+\begin_layout Section
+Antecedentes históricos
+\end_layout
+
+\begin_layout Standard
+Desde que se iniciaron los estudios de los fenómenos eléctricos, muchos
+ experimentos demostraron la variación de la resistencia a diferentes temperatur
+as, con lo cual se llego a definir el parámetro 
+\begin_inset Quotes eld
+\end_inset
+
+coeficiente de temperatura
+\begin_inset Quotes erd
+\end_inset
+
+ el cuál hace notar la variación de la resistencia eléctrica de un material
+ que esta sujeto a variaciones de temperatura.
+ En los materiales la conductividad eléctrica, que se refiere al flujo de
+ electrones a través del material, donde esta movilidad esta siendo disipada
+ por la resistencia u oposición del material al transito de electrones,
+ para mantener este flujo se aplica un voltaje y así remplazar la energía
+ perdida.
+\end_layout
+
+\begin_layout Standard
+En los comienzos del siglo XX tres teorías dominaban la explicación de la
+ variación de la resistencia eléctrica de conductores sometidos a bajas
+ temperaturas; James Dewar afirmaba que la resistencia debería disminuir
+ y llegar a cero como la temperatura; Kelvin afirmaba que al disminuir la
+ temperatura los electrones se congelarían y esto impediría el flujo de
+ tal manera que incrementaría la resistencia y por ultimo Mathiessen sostenía
+ que la resistencia después de una temperatura muy baja se tornaría constante,
+ pero nunca llegando a ser cero.
+ Con el experimento de Onnes se encuentra una estado donde la resistencia
+ eléctrica de ciertos materiales desaparece al llegar a muy bajas temperaturas,
+ esta caída de la resistencia se da de manera abrupta al pasar una temperatura
+ de transición o critica.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/teorias-resistencia-temp.png
+	scale 35
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape italic
+\size footnotesize
+Teorías de la resistencia eléctrica respecto a la temperatura a inicios
+ del siglo XX.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La desaparición de la resistividad cuando el material se encuentra por debajo
+ de una temperatura crítica (
+\begin_inset Formula $T_{C}$
+\end_inset
+
+) y campo magnético critico(
+\begin_inset Formula $H_{C}$
+\end_inset
+
+) es la idea fundamental de la superconductividad, estas dos cantidades
+ invariantes se conocen como las propiedades termodinámicas de un superconductor.
+ Por lo cuál en un material en estado superconductor la corriente podrá
+ fluir sin perdida, ya que no existe oposición al flujo de electrones, y
+ no será necesario aplicar un potencial, ya que no existe disipación de
+ energía por la resistencia; La mayoría de metales al ser llevados a temperatura
+s muy bajas (hacia el cero absoluto) entran en estado superconductor.
+ 
+\end_layout
+
+\begin_layout Subsection
+El descubrimiento de la Superconductividad
+\end_layout
+
+\begin_layout Standard
+Durante el siglo XIX se inició una carrera criogénica, donde los científicos
+ de la época comenzaron licuar gases, lo que llevo a tener temperaturas
+ muy bajas y poco a poco acercarse al cero absoluto.
+ Ya a mediados del siglo XIX se habían licuado la mayoría de gases conocidos,
+ el único gas que no se había podido licuar era el helio, en 1908 en la
+ universidad de Leyden por primera vez se licua helio obteniendo una temperatura
+ de 4.22 kelvin, la temperatura más cercana al cero absoluto que se tenía
+ para esa época.
+ Tal logro fue realizado en los laboratorios de bajas temperaturas, que
+ era dirigido por el físico holandes Heike Kamerlingh Onnes, quien mantuvo
+ la hegemonía hasta 1923 (15 años) al ser el único laboratorio en el mundo
+ en tener helio líquido y hacer estudios criogénicos con la temperatura
+ mas baja conocida.
+ 
+\end_layout
+
+\begin_layout Standard
+Fue en 1911 cuando Kamerlin Onnes, al estudiar el comportamiento de las
+ resistividad eléctrica de los metales como función de la temperatura, propuso
+ utilizar mercurio tridestilado (lo cual le garantizaba una alta pureza)
+ con la idea de corroborar el comportamiento lineal de su resistividad con
+ la temperatura y ver si extrapolándola, esta llegaría a anularse al llegar
+ al cero absoluto.
+ Para su sorpresa la resistividad del mercurio se anuló a una temperatura
+ ligeramente mayor que la del helio líquido, 4.2 K a la cuál llamaremos temperatu
+ra crítica (
+\begin_inset Formula $T_{c}$
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/kamerling-onnes.jpeg
+	lyxscale 20
+	scale 40
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figuras/super-Hg.png
+	lyxscale 65
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape italic
+\size footnotesize
+Fenómeno que observó Kamerlingh Onnes en la transición a estado superconductor
+ del mercurio.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Kamerling Onnes y su equipo repitieron este experimento hasta estar completament
+e seguros de este asombroso resultado, con lo cuál descubrieron un nuevo
+ fenómeno al cuál el propio Onnes lo nombro posteriormente superconductividad.
+ Las expectativas de aplicaciones generadas por este descubrimiento fueron
+ muy grandes, aunque estas se vieron en mayor o menor grado frustradas poco
+ tiempo después.
+\end_layout
+
+\begin_layout Standard
+Sin embargo el fenómeno resultaba tan interesante que 
+\begin_inset Quotes eld
+\end_inset
+
+disparo
+\begin_inset Quotes erd
+\end_inset
+
+ una enorme cantidad de investigaciones tanto teóricas como experimentales,
+ entre las cuales podemos citar la intensiva búsqueda de nuevos materiales
+ que presentaran el fenómeno de superconductividad, así como intentos fenomenoló
+gicos (todavía no se desarrollaba la mecánica cuántica) para explicarlo.
+ 
+\end_layout
+
+\begin_layout Standard
+Para 1925 uno de los alumnos de Max Planck, el físico Fritz Walter Meissner
+ construyé el tercer licuefactor más grande de helio conocido y junto a
+ su colega el físico Robert Ochsenfeld comienzan a hacer estudios a bajas
+ temperaturas en materiales; en 1933 descubren que los materiales superconductor
+es tienen la capacidad de expeler un campo magnético, al enfriarse por debajo
+ de la temperatura crítica 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+; este fenómeno fue llamado efecto Meissner.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/Walther_Meissner.jpg
+	lyxscale 24
+	scale 60
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename Figuras/robert-ochsenfeld.png
+	scale 250
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape italic
+\size footnotesize
+Fritz W.
+ Meissner y Robert Ochsenfeld
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En 1935 los hermanos London (Fritz y Heinz) desarrollan una teoría fenomenológic
+a para tratar de explicar la Superconductividad y describir el efecto Meissner,
+ partiendo de las ecuaciones de Maxwell, llegando a demostrar que el campo
+ magnético en el interior del superconductor decae con una longitud característi
+ca; Fritz hace por primera vez la sugerencia de que la superconductividad
+ es una manifestación de la mecánica cuántica.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figuras/hermanoslondon.jpg
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\series bold
+\shape slanted
+\size footnotesize
+Fritz y Heinz London
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Frölich en 1950 encuentra que la temperatura de transición tiene una relación
+ con la masa de los iones del material.
+ También en los años 50's el ruso Alexei Abrikosov, basado en los trabajos
+ de Ginzburg y Landau, esboza una teoría del comportamiento de los superconducto
+res respecto al campo magnético externo.
+\end_layout
+
+\begin_layout Standard
+Fue hasta 1957 en que J.
+ Bardeen, L.
+ Cooper y J.R.
+ Schrieffer desarrollaron una teoría de primeros principios (llamado la
+ teoría 
+\series bold
+BCS
+\series default
+) donde dan una explicación cuántica para la aparición de la superconductividad;
+ La teoría 
+\series bold
+BCS
+\series default
+ parte de la existencia de los pares de Cooper (pareja de electrones con
+ momento y espín opuestos, unidos por una fuerza atractiva generada por
+ la red de iones positivos).
+ Por este descubrimiento en 1972 son galardonados con el premio Nobel de
+ Física.
+ 
+\end_layout
+
+\begin_layout Standard
+En 1962, científicos de la Westinghouse desarrollan el primer cable superconduct
+or a base de Niobio y Titanio.
+ Pero lo más destacado de ese año es cuando Brian Josephson predijo que
+ entre dos superconductores, los cuales incluso pueden estar separados por
+ un aislante, puede fluir una supercorriente, haciendo un efecto de tunelaje;
+ a este fenómeno se le denomino efecto Josephson, y en 1973 se le galardono
+ con el premio nobel de física por tal contribución.
+\end_layout
+
+\begin_layout Standard
+Para el año de 1973 Johnston usando oxido de titanio y litio obtiene una
+ temperatura crítica de 13.7 K.
+ Aunque en el mismo año Matthias en una aleación de 
+\begin_inset Formula $Nb_{3}Ge$
+\end_inset
+
+ eleva la temperatura crítica a 23.3 K.
+ Durante 13 años los físicos llegaron a la conclusión de no se podía llegar
+ más arriba de la 
+\begin_inset Formula $T_{c}$
+\end_inset
+
+ de Matthias.
+\end_layout
+
+\begin_layout Standard
+Pero en 1986, Alex Müller y George Bednorz publican 
+\begin_inset Quotes eld
+\end_inset
+
+Possible High Tc superconductivity in the Ba-La-Cu-O System
+\begin_inset Quotes erd
+\end_inset
+
+ obteniendo una 
+\begin_inset Formula $T_{c}=35\, K$
+\end_inset
+
+ en superconductor cerámico, dando partida a los superconductores de alta
+ temperatura.
+\end_layout
+
+\begin_layout Standard
+1987, Maw-Wuen Wu y Paul O.
+ W.
+ Chu descubren que el cerámico 
+\begin_inset Formula $Y_{1}Ba_{2}Cu_{3}O$
+\end_inset
+
+ que era superconductor con una 
+\begin_inset Formula $Tc$
+\end_inset
+
+ de 93 K.
+ Desde esa época muchos científicos comenzaron a trabajar con cupratos de
+ la familia de perovskitas de cobre y para el año 2000 se obtiene el superconduc
+tor 
+\begin_inset Formula $Hg_{0.8}Tl_{0.2}Ba_{2}Ca_{2}Cu_{3}O_{8}$
+\end_inset
+
+ con una 
+\begin_inset Formula $T_{c}=138\, K$
+\end_inset
+
+ siendo hasta ahora la mayor temperatura critica registrada.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+a.
+ 
+\end_layout
+
+\begin_layout Subsection
+El desarrollo de la Superconductividad
+\end_layout
+
+\begin_layout Plain Layout
+Después de la observación de la superconductividad en el mercurio se empezó
+ a ensayar con diferentes metales, con diferentes grados de pureza, con
+ resultados más o menos sorprendentes.
+ Los metales buenos conductores de la electricidad (Cu, Ag, Au y Pt) no
+ presentaron este fenómeno, y algunos de los malos conductores, como el
+ plomo, si lo presentaba.
+ La búsqueda continuó utilizando diferentes aleaciones y algunas de ellas
+ resultaron tener temperaturas criticas mayores que las del mercurio, dando
+ la impresión de que cuanto menos puro fuese el conductor, su temperatura
+ critica se elevaba.
+ Cabe mencionar los esfuerzos experimentales realizados por Matthias, que
+ para 1973 había logrado una aleación (
+\begin_inset Formula $Nb_{3}Ge$
+\end_inset
+
+) cuya temperatura crítica era de 23 K la más alta hasta ese entonces.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Conductividad eléctrica y superconducción
+\end_layout
+
+\begin_layout Subsection
+Efecto Maissner-Ochsenfeld 
+\end_layout
+
+\begin_layout Subsection
+Clasificación de superconductores
+\end_layout
+
+\begin_layout Standard
+Una de las primeras observaciones en el comportamiento de los superconductores
+ fué que al aumentar la corriente (persistente) generada en ellos (supercorrient
+e) el fenómeno desaparecia abruptamente.
+ Rapidamente se determino que la ruptura de la superconductividad se debido
+ a la penetración en el material del campo magnetico externo, a la magnitud
+ del campo magnetico que sucede esto se le denomina campo magnetico critico
+ ( 
+\begin_inset Formula $\vec{H}_{c})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Subsubsection*
+Superconductores tipo I
+\end_layout
+
+\begin_layout Subsubsection*
+Superconductores tipo II
+\end_layout
+
+\begin_layout Subsubsection*
+Superconductores de bajas temperaturas
+\end_layout
+
+\begin_layout Subsubsection*
+Superconductores de altas temperaturas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Teorías fenomenológicas de superconductividad
+\end_layout
+
+\begin_layout Subsection
+Teoría de London
+\end_layout
+
+\begin_layout Subsection
+Teoría de Ginzburg-Landau
+\end_layout
+
+\begin_layout Subsection
+Teoría BCS
+\end_layout
+
+\begin_layout Section
+Superconductores de alta temperatura (cupratos)
+\end_layout
+
+\begin_layout Subsection
+Perovskitas
+\end_layout
+
+\begin_layout Subsection
+Compuesto superconductor YBaCuO
+\end_layout
+
+\begin_layout Subsection
+Estructura del YBaCuO
+\end_layout
+
+\end_body
+\end_document
